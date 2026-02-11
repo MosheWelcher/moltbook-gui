@@ -1,4 +1,4 @@
-@echo 
+@echo off
 TITLE Moltbook GUI Launcher
 
 :: Try to find npm automatically
@@ -36,3 +36,4 @@ echo ------------------------------------------
 echo.
 call "%NPM_PATH%" run dev
 pause
+
