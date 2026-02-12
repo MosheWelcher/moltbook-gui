@@ -11,7 +11,7 @@ You need to copy the project files to your VPS. Run this command **from your loc
 
 ```bash
 # Replace 'user@your-vps-ip' with your actual VPS details
-scp -r "C:\Users\welch\Documents\Moltbook GUI" user@your-vps-ip:~/moltbook-guit
+scp -r "<Path-to-project>" user@your-vps-ip:~/moltbook-gui
 ```
 
 *(Note: Requires the `scp` tool, usually available in Git Bash or PowerShell if slightly adapted).*
@@ -43,3 +43,4 @@ Open your browser and navigate to:
 ## 4. Troubleshooting
 - **Logs**: `sudo docker compose logs -f`
 - **Rebuild**: `sudo docker compose up -d --build` (after changing any code)
+
