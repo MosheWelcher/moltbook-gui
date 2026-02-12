@@ -5,7 +5,7 @@ This guide assumes you are completely new to this. Don't worry, it's easy!
 ## The "One-Click" Method (Recommended)
 
 1.  Open the folder `Documents\Moltbook GUI`.
-2.  Look for a file named **`start_app.bat`** (it might just say `start_app` with a gear icon).
+2.  Look for a file named **`start_app.cmd`** (it might just say `start_app` with a gear icon).
 3.  **Double-click it**.
 
 **What will happen:**
@@ -39,3 +39,4 @@ If the black window closes immediately or gives an error:
 ## Notes
 *   **Keep the black window open!** That is the server running. If you close it, the site stops working.
 *   To stop the app, click in the black window and press `Ctrl + C`, then type `Y` and Enter.
+
